@@ -69,20 +69,20 @@ export default function NavBar() {
         <div className="navbar-gap"></div>
         <Link
           className={`text-small text-decoration-none primary-font-color button-effect`}
-          href="/experience"
+          href="/journey"
         >
           <span>
             {HtmlTags(
               "<",
               `${
-                route.pathname === "/experience" ? "secondary-font-color" : ""
+                route.pathname === "/journey" ? "secondary-font-color" : ""
               }`
             )}
-            experience
+            journey
             {HtmlTags(
               "/>",
               `${
-                route.pathname === "/experience" ? "secondary-font-color" : ""
+                route.pathname === "/journey" ? "secondary-font-color" : ""
               }`
             )}
           </span>

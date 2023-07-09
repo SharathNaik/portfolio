@@ -7,10 +7,11 @@ export const data: Data = {
   picture: dataFromJson.picture,
   tagline: dataFromJson.tagline,
   bio: dataFromJson.bio,
-  experience: dataFromJson.experience,
+  journey: dataFromJson.journey,
   email: dataFromJson.email,
   githubUserID: dataFromJson.githubUserID,
-  repos: dataFromJson.repos,
+  //repos: dataFromJson.repos,
   socials: dataFromJson.socials,
   resume: dataFromJson.resume,
+  projects: dataFromJson.projects
 };

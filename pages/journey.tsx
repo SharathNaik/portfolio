@@ -9,24 +9,24 @@ export default function Experience() {
   const [selectedExperience, setSelectedExperience] = useState(0);
   const experiences = [];
 
-  for (let experience in data.experience) {
+  for (let experience in data.journey) {
     experiences.push(
       <div className="d-flex flex-column margin-left experience-container">
         <div
-          key={`${data.experience[experience]["company"]}${experience}`}
+          key={`${data.journey[experience]["company"]}${experience}`}
           className="d-flex flex-column"
         >
           {HtmlTags("<title> ", "white-space-nowrap")}
           <div className="d-flex flex-row margin-left">
-            <span className="primary-font-color text">{`${data.experience[experience]["title"]}`}</span>
+            <span className="primary-font-color text">{`${data.journey[experience]["title"]}`}</span>
             &emsp;
             <a
-              href={`${data.experience[experience]["company_url"]}`}
+              href={`${data.journey[experience]["company_url"]}`}
               target="_blank"
               rel="noreferrer"
               className="text-decoration-none secondary-font-color text button-effect"
             >
-              {`@${data.experience[experience]["company"]}`}
+              {`@${data.journey[experience]["company"]}`}
             </a>
           </div>
           {HtmlTags(" </title>", "white-space-nowrap")}
@@ -36,14 +36,14 @@ export default function Experience() {
             {HtmlTags("<date>", "white-space-nowrap")}
             <span className="primary-font-color text-small">
               &nbsp;
-              {`${data.experience[experience]["duration"]}`}&nbsp;
+              {`${data.journey[experience]["duration"]}`}&nbsp;
             </span>
             {HtmlTags("</date>", "white-space-nowrap")}
           </div>
           <div className="d-flex flex-column align-items-start">
             {HtmlTags("<details>", "white-space-nowrap")}
             <div className="margin-left margin-right primary-font-color text-small white-space-preline">
-              {`${data.experience[experience]["description"]}`}
+              {`${data.journey[experience]["description"]}`}
             </div>
             {HtmlTags("</details>", "white-space-nowrap")}
           </div>
@@ -55,10 +55,10 @@ export default function Experience() {
   return (
     <>
       <Head>
-        <title>{`${data.intro.split(" ")[0]}'s Experience`}</title>
+        <title>{`${data.intro.split(" ")[0]}'s Journey`}</title>
         <meta
           name="description"
-          content={`${data.intro} has previously worked at these companies and has gained experience in these fields`}
+          content={`${data.intro} has previously gone through these journeys and gained experience in these fields`}
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -72,7 +72,7 @@ export default function Experience() {
         <div className="d-flex flex-row justify-content-start align-items-center margin-left">
           {HtmlTags(`<!--`, "white-space-nowrap")}
           {FallInTextEntry(
-            "02. my experience",
+            "02. my journey",
             "subtitle secondary-font-color text-shadow"
           )}
           {HtmlTags(`-->`, "white-space-nowrap")}
@@ -81,7 +81,7 @@ export default function Experience() {
         <br></br>
         <div className="d-flex experience align-items-start">
           <div className="d-flex experience-selection-button-container justify-content-start margin-left primary-font-color text">
-            {data.experience.map((experience, index) => {
+            {data.journey.map((experience, index) => {
               return (
                 <div
                   key={`${experience["company"]}${index}`}

@@ -13,19 +13,20 @@ export type Data = {
   email: string;
   tagline: String[];
   bio: String[];
-  experience: keyable[];
+  journey: keyable[];
   githubUserID: string;
-  repos: string[];
+  //repos: string[];
   socials: map;
   resume: string;
+  projects: keyable[];
 };
 
 export type ProjectCardProps = {
   name?: string;
   description?: string | null;
-  star_gazers?: number;
-  forks_count?: number;
-  html_url?: string;
+  rating?: number;
+  download_count?: number;
+  link_url?: string;
   homepage?: string | URL | undefined;
   language?: string;
   open_issues?: number;
@@ -35,9 +36,9 @@ export type ProjectCardProps = {
 export type ProjectDataArr = {
   name?: string;
   description?: string | null;
-  star_gazers?: number;
-  forks_count?: number;
-  html_url?: string;
+  rating?: number;
+  download_count?: number;
+  link_url?: string;
   homepage?: string | URL | undefined;
   language?: string;
   open_issues?: number;

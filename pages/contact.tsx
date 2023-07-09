@@ -116,7 +116,7 @@ export default function Contact() {
           className="margin-left"
         >
           <a
-            href={templateData?.html_url}
+            href={templateData?.link_url}
             target="_blank"
             className="primary-font-color text text-decoration-none button-effect"
             rel="noreferrer"
@@ -126,17 +126,17 @@ export default function Contact() {
           <div style={{ gap: "10px" }} className="d-flex align-items-center">
             <a
               className="d-flex flex-row align-items-center gap-2px text-decoration-none button-effect"
-              href={`${templateData?.html_url}/fork`}
+              href={`${templateData?.link_url}/fork`}
               target="_blank"
               rel="noreferrer"
             >
               <Image src={fork} alt="fork" className="fork-image d-block" />
-              <span>{templateData?.forks_count}</span>
+              <span>{templateData?.download_count}</span>
             </a>
             <div className="d-flex gap-2px align-items-center">
               <Image src={star} alt="" className="star-image d-block" />
               <p className="star-count primary-font-color">
-                {templateData?.star_gazers}
+                {templateData?.rating}
               </p>
             </div>
           </div>

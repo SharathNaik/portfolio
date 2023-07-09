@@ -9,7 +9,7 @@ import {
   addAnimationClass,
   removeAnimationClass,
 } from "../../utils/CommonFunctions";
-import { repoURLs } from "../../utils/Constants";
+//import { repoURLs } from "../../utils/Constants";
 
 function Projects(): JSX.Element {
   const [projectDataArr, setProjectArr] = useState<ProjectDataArr[]>([
@@ -17,6 +17,23 @@ function Projects(): JSX.Element {
     {},
     {},
   ]);
+  
+
+  useEffect(() => {
+    setProjectArr(data.projects);
+
+    const toAnimate = 2;
+    const addAnimationClassReturn = addAnimationClass({ animate: 4 });
+
+    return () => {
+      clearInterval(addAnimationClassReturn.interval);
+      for (let i = 0; i < toAnimate; i++) {
+        removeAnimationClass({ index: addAnimationClassReturn.index[i] });
+      }
+    };
+
+  }, []);
+  /*
 
   const getProjectData = async (url: string) => {
     try {
@@ -48,6 +65,7 @@ function Projects(): JSX.Element {
       }
     };
   }, []);
+  */
 
   return (
     <>
@@ -81,11 +99,11 @@ function Projects(): JSX.Element {
                 key={index}
                 name={item.name}
                 description={item.description}
-                star_gazers={item.star_gazers}
+                rating={item.rating}
                 topics={item.topics}
-                html_url={item.html_url}
+                link_url={item.link_url}
                 homepage={item.homepage}
-                forks_count={item.forks_count}
+                download_count={item.download_count}
               />
             );
           })}

@@ -1,6 +1,6 @@
 import React from "react";
 import { HtmlTags } from "./HtmlTags";
-import fork from "../public/images/fork.webp";
+import download from "../public/images/download.webp";
 import star from "../public/images/star.webp";
 import Image from "next/image";
 import Github from "../public/images/github.webp";
@@ -8,10 +8,12 @@ import Link from "../public/images/link.webp";
 import ElasticText from "./ElasticText";
 import { ProjectCardProps } from "../models/DataTypes";
 
+import android from "../public/images/android.webp";
+
 const Card = (props: ProjectCardProps) => {
   if (
     props.name == undefined ||
-    (props.name == "TypeError" && props.forks_count == undefined)
+    (props.name == "TypeError" && props.download_count == undefined)
   ) {
     return (
       <div className="project-card empty-project-card d-flex flex-column justify-content-center">
@@ -32,32 +34,19 @@ const Card = (props: ProjectCardProps) => {
       >
         <div className="w-100p d-flex flex-row justify-content-between">
           <div style={{ gap: "10px" }} className="d-flex align-items-center">
-            <a
-              className="d-flex flex-row align-items-center gap-2px text-decoration-none button-effect"
-              href={`${props.html_url}/fork`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Image src={fork} alt="fork" className="fork-image d-block" />
-              <span>{props.forks_count}</span>
-            </a>
+            <div className="d-flex gap-2px align-items-center">
+              <Image src={download} alt="fork" className="fork-image d-block" />
+              <p className="star-count">{props.download_count}</p>
+            </div>
             <div className="d-flex gap-2px align-items-center">
               <Image src={star} alt="" className="star-image d-block" />
-              <p className="star-count">{props.star_gazers}</p>
+              <p className="star-count">{props.rating}</p>
             </div>
           </div>
           <div className="d-flex align-items-center">
             <a
               className="button-effect"
-              href={`${props.html_url}`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Image src={Github} alt={"Github"} />
-            </a>
-            <a
-              className="button-effect"
-              href={`${props.homepage}`}
+              href={`${props.link_url}`}
               target="_blank"
               rel="noreferrer"
             >

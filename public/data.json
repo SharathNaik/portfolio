@@ -1,40 +1,121 @@
 {
-  "intro": "Shourya Shikhar",
-  "picture": "https://i.imgur.com/elu7mcU.webp",
-  "about": "Hello! My name is Shourya and I'm a 3rd yr. CS Engineering student. My interest in web and app development started from my pre-college days when I tried forking an android app to get rid of ads. Turns out hacking together a custom application taught me a lot about how apps work!\n\nFast-forward to today, and I've had the privilege of working at a start-up, and a student-led developer club. My main focus these days is learning new technologies and leveling up as a developer.\n\nI also happen to be a regular contributor to open-source projects like CircuitVerse and Flutter.\n\nHere are a few technologies I've been working with recently:\n\nJavaScript (ES6+), TypeScript, NextJS, FastAPI & Flutter.",
-  "bio": ["I'm a Full Stack Developer and an Open Source Enthusiast"],
-  "tagline": ["I build stuff for you,", "for the web,", "for the world."],
-  "email": "danger.ahead@protonmail.com",
-  "experience": [
+  "intro": "Sharath M",
+  "picture": "https://i.imgur.com/Me3bbCd.jpg",
+  "about": "Hello! My name is Sharath, and I'm an application developer.\n\n My development journey started during my engineering days, when I started to explore app development opportunities for the Nokia Asha Android device. The journey continued with Blackberry apps, Android apps, and Windows apps.\n\n Today, I am a solution architect at an MNC with 10 years of experience. \n\n I am a hobby application developer. I develop apps for mobile and the web.",
+  "bio": ["I'm a Mobile and Web Application developer."],
+  "tagline": ["I build applications for you,", "for the web,", "for the mobile."],
+  "email": "nullwelldev@gmail.com",
+  "journey": [
     {
-      "title": "SDE Intern",
-      "company": "Ekko",
-      "company_url": "https://ekko.network/",
-      "duration": "May 2022 - February 2023",
-      "description": "Working on a web platform to help people connect digitally and help them forget the pain of carrying physical business cards again."
+      "title": "Hobby Application Developer",
+      "company": "For Soul",
+      "company_url": "https://sharathnaik.github.io/SharathResume/",
+      "duration": "2012 - Till Present",
+      "description": "I am an experienced hobby app developer, proficient in both web and mobile development. I have a passion for creating engaging and innovative apps that cater to the needs of users. \n\n With my expertise in various programming languages and frameworks, I can develop apps that operate seamlessly across various platforms and devices."
     },
     {
-      "title": "Web & App Lead",
-      "company": "GDSC RCCIIT",
-      "company_url": "https://gdsc-rcciit-web.web.app/",
-      "duration": "August 2022 - Present",
-      "description": "Managing team of student developers and organised events for the club. Also worked on the club website and database."
+      "title": "Sharepoint Developer and Designer",
+      "company": "For Food",
+      "company_url": "https://www.coforge.com/",
+      "duration": "2013 - Till Present",
+      "description": "Currently, I am developing SharePoint applications using SPFx with React and No Javascript Framework, Power Apps with Canvas App, and Power Automate to achieve business requirements for O365. \n\n I started my career with SharePoint 2010, where I explored Console applications, Webpart development, Event Receivers, Termstores, the REST API, and workflows. followed by Sharepoint 2013 Script Editor, REST API, and Sharepoint Hosted App."
+    },
+    {
+      "title": "Microsoft Student Partners, Robogyan - Leader, NEN - Core Comitte Member",
+      "company": "PESCE",
+      "company_url": "https://pescemandya.org/",
+      "duration": "2012 - 2013",
+      "description": "As a MSP, I have conducted sessions on Microsoft Stack. \n\n Robotics sessions were conducted monthly for Robogyan Members. \n\n part of the entrepreneurial decision-makers."
     }
   ],
-  "githubUserID": "danger-ahead",
-  "repos": [
-    "flutter_dev_folio",
-    "simple_chips_input",
-    "regalia-2022-backend",
-    "techtrix22-backend",
-    "roBOT"
-  ],
+  "githubUserID": "sharathnaik",
   "socials": {
-    "linkedin": "https://linkedin.com/in/shourya-shikhar",
-    "github": "https://github.com/danger-ahead",
-    "stackoverflow": "https://stackoverflow.com/users/10951873/shourya-shikhar",
-    "twitter": "https://twitter.com/___shourya___",
-    "instagram": "https://instagram.com/definitelynotshourya"
+    "linkedin": "https://www.linkedin.com/in/sharath-m-62a2444b",
+    "github": "https://github.com/sharathnaik",
+    "twitter": "https://twitter.com/sharu",
+    "instagram": "https://www.instagram.com/mshaaruu/"
   },
-  "resume": "https://www.overleaf.com/read/qcrdxwkkrjns"
+  "resume": "https://sharathnaik.github.io/SharathResume/",
+  "projects": [
+    {
+      "name":"Kannada Ogatugalu",
+      "description":"Discover the wisdom and cultural richness of Kannada language through this app (ಕನ್ನಡ ಒಗಟುಗಳು), designed to provide you with a vast array of traditional Ogatu (ಒಗಟು) that have been passed down through generations.",
+      "rating":5,
+      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadaogatugalu",	
+      "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
+      "download_count":"5+"
+    },
+    {
+      "name":"Kannada Gaadegalu",
+      "description":"This app (ಕನ್ನಡ ಗಾದೆಗಳು) provides a collection of Kannada proverbs and sayings. It also allows users to search and save their favorite gaade (proverb) in an intuitive way.",
+      "rating":5,
+      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadagaadegalu",	
+      "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
+      "download_count":"5+"
+    },
+    {
+      "name":"Thought Probe",
+      "description":"Welcome to Thought Probe, the ultimate mind reading challenge! In this game, game will guess what you are thinking.",
+      "rating":5,
+      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.advancedmindreader",	
+      "topics":["Android","Flutter","Dart","VS-Code"],
+      "download_count":"5+"
+    },
+    {
+      "name":"Train your brain | Puzzle",
+      "description":"Looking for a fun and challenging way to train your brain? Try out Train your brain puzzle game!",
+      "rating":5,
+      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.trainyourbrain",	
+      "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
+      "download_count":"10+"
+    },
+    {
+      "name":"Memory | Puzzle Challenge",
+      "description":"Are you ready to test your memory skills? Take the Memory Puzzle Challenge!",
+      "rating":5,
+      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.memorypuzzle",	
+      "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
+      "download_count":"5+"
+    },
+    {
+      "name":"Math | Puzzle Challenge",
+      "description":"The Math Puzzle Challenge is an exciting game that tests your problem-solving skills and mathematical abilities.",
+      "rating":5,
+      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.mathematicsPuzzle",	
+      "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
+      "download_count":"5+"
+    },
+    {
+      "name":"Bhakti Sudhe",
+      "description":"Bhakti Sudhe (ಭಕ್ತಿ ಸುಧೆ) hosts lyrics of Hindu Mythological Gods. Aim is to provide a central place for lyrics for a needy Theist. App is available in Kannada and English.",
+      "rating":4.8,
+      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadabhaktisudha",	
+      "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
+      "download_count":"10+"
+    },
+    {
+      "name":"XO : Beat Me",
+      "description":"Tictoetoe Puzzle's AI algorithm and ability to take decisions on its own make the app distinctive.",
+      "rating":4.9,
+      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.tictactoe",	
+      "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
+      "download_count":"100+"
+    },
+    {
+      "name":"UrgeBlood",
+      "description":"UrgeBlood was developed to serve blood to needy people by providing a connection between the Blood Donor and the Requester.",
+      "rating":5.0,
+      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.urgeblood",	
+      "topics":["Android","Cordova","Ionic","Firebase","Angular","Typescript","VS-Code"],
+      "download_count":"50+"
+    },
+    {
+      "name":"Mind Reader",
+      "description":"Mind teaser free application developed based on Mathematics",
+      "rating": 4.3,
+      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.mind&hl=en-IN",	
+      "topics":["Android","Java","Eclipse"],
+      "download_count":"10,000+"
+    }
+  ]
 }
