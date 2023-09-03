@@ -38,6 +38,14 @@
   "resume": "https://sharathnaik.github.io/SharathResume/",
   "projects": [
     {
+      "name":"Movie Explain",
+      "description":"The Movie Explain app is a platform that provides users with detailed explanations of movies, TV shows, and other forms of visual media.",
+      "rating":5,
+      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.moviexplain",	
+      "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
+      "download_count":"10+"
+    },
+    {
       "name":"Kannada Ogatugalu",
       "description":"Discover the wisdom and cultural richness of Kannada language through this app (ಕನ್ನಡ ಒಗಟುಗಳು), designed to provide you with a vast array of traditional Ogatu (ಒಗಟು) that have been passed down through generations.",
       "rating":5,
