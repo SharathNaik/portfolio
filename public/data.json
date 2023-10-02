@@ -61,7 +61,7 @@
       "rating":5,
       "link_url":"https://play.google.com/store/apps/details?id=com.sharath.moviexplain",	
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
-      "download_count":"10+"
+      "download_count":"50+"
     },
     {
       "name":"Kannada Ogatugalu",
@@ -125,7 +125,7 @@
       "rating":4.9,
       "link_url":"https://play.google.com/store/apps/details?id=com.sharath.tictactoe",	
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
-      "download_count":"100+"
+      "download_count":"500+"
     },
     {
       "name":"UrgeBlood",
