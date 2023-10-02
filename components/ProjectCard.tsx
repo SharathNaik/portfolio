@@ -25,6 +25,8 @@ const Card = (props: ProjectCardProps) => {
     );
   }
 
+  let countShow = (props.download_count != undefined?'flex':'none');
+
   return (
     <div className="project-card d-flex flex-column justify-content-between">
       {HtmlTags("<project>", "d-block")}
@@ -34,11 +36,11 @@ const Card = (props: ProjectCardProps) => {
       >
         <div className="w-100p d-flex flex-row justify-content-between">
           <div style={{ gap: "10px" }} className="d-flex align-items-center">
-            <div className="d-flex gap-2px align-items-center">
+            <div className="d-flex gap-2px align-items-center" style={{display: countShow}}>
               <Image src={download} alt="fork" className="fork-image d-block" />
               <p className="star-count">{props.download_count}</p>
             </div>
-            <div className="d-flex gap-2px align-items-center">
+            <div className="d-flex gap-2px align-items-center" style={{display: countShow}}>
               <Image src={star} alt="" className="star-image d-block" />
               <p className="star-count">{props.rating}</p>
             </div>

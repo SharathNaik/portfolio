@@ -38,6 +38,24 @@
   "resume": "https://sharathnaik.github.io/SharathResume/",
   "projects": [
     {
+      "name":"NullWell",
+      "description":"website built for nullwell.",
+      "link_url":"https://null-well-github-io.vercel.app/",	
+      "topics":["Angular", "RxJS", "NodeJS", "Typescript", "VS-Code", "Vercel"]
+    },
+    {
+      "name":"Sharath Portfolio",
+      "description":"portfolio built for myself.",
+      "link_url":"https://portfolio-weld-eta-24.vercel.app/",	
+      "topics":["Next", "React", "NodeJS", "Typescript", "VS-Code", "Vercel"]
+    },
+    {
+      "name":"Sharath Resume",
+      "description":"personal resume built for myself.",
+      "link_url":"https://sharathnaik.github.io/SharathResume/",	
+      "topics":["React", "NodeJS", "Javascript", "VS-Code", "Netify"]
+    },
+    {
       "name":"Movie Explain",
       "description":"The Movie Explain app is a platform that provides users with detailed explanations of movies, TV shows, and other forms of visual media.",
       "rating":5,
