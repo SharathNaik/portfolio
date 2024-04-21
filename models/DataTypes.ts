@@ -26,7 +26,8 @@ export type ProjectCardProps = {
   description?: string | null;
   rating?: number;
   download_count?: number;
-  link_url?: string;
+  android_url?: string;
+  web_link_url?:string;
   homepage?: string | URL | undefined;
   language?: string;
   open_issues?: number;
@@ -38,7 +39,8 @@ export type ProjectDataArr = {
   description?: string | null;
   rating?: number;
   download_count?: number;
-  link_url?: string;
+  android_url?: string;
+  web_link_url?:string;
   homepage?: string | URL | undefined;
   language?: string;
   open_issues?: number;

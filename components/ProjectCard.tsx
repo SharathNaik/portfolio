@@ -5,6 +5,7 @@ import star from "../public/images/star.webp";
 import Image from "next/image";
 import Github from "../public/images/github.webp";
 import Link from "../public/images/link.webp";
+import Android from "../public/images/android.webp";
 import ElasticText from "./ElasticText";
 import { ProjectCardProps } from "../models/DataTypes";
 
@@ -45,12 +46,22 @@ const Card = (props: ProjectCardProps) => {
               <p className="star-count">{props.rating}</p>
             </div>
           </div>
-          <div className="d-flex align-items-center">
-            <a
+          <div className="d-flex align-items-center" style={{ gap: "10px" }}>
+              <a
               className="button-effect"
-              href={`${props.link_url}`}
+              href={`${props.android_url}`}
               target="_blank"
               rel="noreferrer"
+              style={{display: props.android_url != ""?'flex':'none'}}
+            >
+              <Image src={Android} alt={"Homepage"} />
+            </a>
+            <a
+              className="button-effect"
+              href={`${props.web_link_url}`}
+              target="_blank"
+              rel="noreferrer"
+              style={{display: props.web_link_url != ""?'flex':'none'}}
             >
               <Image src={Link} alt={"Homepage"} />
             </a>

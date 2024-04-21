@@ -101,7 +101,8 @@ function Projects(): JSX.Element {
                 description={item.description}
                 rating={item.rating}
                 topics={item.topics}
-                link_url={item.link_url}
+                web_link_url={item.web_link_url}
+                android_url={item.android_url}
                 homepage={item.homepage}
                 download_count={item.download_count}
               />

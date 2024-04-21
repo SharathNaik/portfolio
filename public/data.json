@@ -41,33 +41,38 @@
       "name":"Kannada Cinema",
       "description":"Welcome to the ultimate destination for Kannada Cinema enthusiasts – our specially curated Kannada Cinema app! Immerse yourself in the enchanting world of Kannada films, where tradition meets innovation and storytelling takes center stage.",
       "rating":5,
-      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadamovies",	
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadamovies",	
+      "web_link_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code","TMDB"],
       "download_count":"10+"
     },
     {
       "name":"NullWell",
       "description":"website built for nullwell.",
-      "link_url":"https://null-well-github-io.vercel.app/",	
+      "android_url":"",
+      "web_link_url":"https://null-well-github-io.vercel.app/",	
       "topics":["Angular", "RxJS", "NodeJS", "Typescript", "VS-Code", "Vercel"]
     },
     {
       "name":"Sharath Portfolio",
       "description":"portfolio built for myself.",
-      "link_url":"https://portfolio-weld-eta-24.vercel.app/",	
+      "android_url":"",
+      "web_link_url":"https://portfolio-weld-eta-24.vercel.app/",	
       "topics":["Next", "React", "NodeJS", "Typescript", "VS-Code", "Vercel"]
     },
     {
       "name":"Sharath Resume",
       "description":"personal resume built for myself.",
-      "link_url":"https://sharathnaik.github.io/SharathResume/",	
+      "android_url":"",
+      "web_link_url":"https://sharathnaik.github.io/SharathResume/",	
       "topics":["React", "NodeJS", "Javascript", "VS-Code", "Netify"]
     },
     {
       "name":"Movie Explain",
       "description":"The Movie Explain app is a platform that provides users with detailed explanations of movies, TV shows, and other forms of visual media.",
       "rating":5,
-      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.moviexplain",	
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.moviexplain",	
+      "web_link_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code","TMDB"],
       "download_count":"100+"
     },
@@ -75,7 +80,8 @@
       "name":"Kannada Ogatugalu",
       "description":"Discover the wisdom and cultural richness of Kannada language through this app (ಕನ್ನಡ ಒಗಟುಗಳು), designed to provide you with a vast array of traditional Ogatu (ಒಗಟು) that have been passed down through generations.",
       "rating":5,
-      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadaogatugalu",	
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadaogatugalu",	
+      "web_link_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
       "download_count":"5+"
     },
@@ -83,7 +89,8 @@
       "name":"Kannada Gaadegalu",
       "description":"This app (ಕನ್ನಡ ಗಾದೆಗಳು) provides a collection of Kannada proverbs and sayings. It also allows users to search and save their favorite gaade (proverb) in an intuitive way.",
       "rating":5,
-      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadagaadegalu",	
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadagaadegalu",	
+      "web_link_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
       "download_count":"5+"
     },
@@ -91,15 +98,17 @@
       "name":"Thought Probe",
       "description":"Welcome to Thought Probe, the ultimate mind reading challenge! In this game, game will guess what you are thinking.",
       "rating":5,
-      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.advancedmindreader",	
-      "topics":["Android","Flutter","Dart","VS-Code"],
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.advancedmindreader",
+      "web_link_url":"https://null-well.github.io/thoughtProbe/",	
+      "topics":["Android","Flutter","Dart","VS-Code","Progressive Web App (PWA)"],
       "download_count":"5+"
     },
     {
       "name":"Train your brain | Puzzle",
       "description":"Looking for a fun and challenging way to train your brain? Try out Train your brain puzzle game!",
       "rating":5,
-      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.trainyourbrain",	
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.trainyourbrain",
+      "web_link_url":"",		
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
       "download_count":"10+"
     },
@@ -107,7 +116,8 @@
       "name":"Memory | Puzzle Challenge",
       "description":"Are you ready to test your memory skills? Take the Memory Puzzle Challenge!",
       "rating":5,
-      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.memorypuzzle",	
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.memorypuzzle",	
+      "web_link_url":"",	
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
       "download_count":"5+"
     },
@@ -115,7 +125,8 @@
       "name":"Math | Puzzle Challenge",
       "description":"The Math Puzzle Challenge is an exciting game that tests your problem-solving skills and mathematical abilities.",
       "rating":5,
-      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.mathematicsPuzzle",	
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.mathematicsPuzzle",	
+      "web_link_url":"",	
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
       "download_count":"5+"
     },
@@ -123,7 +134,8 @@
       "name":"Bhakti Sudhe",
       "description":"Bhakti Sudhe (ಭಕ್ತಿ ಸುಧೆ) hosts lyrics of Hindu Mythological Gods. Aim is to provide a central place for lyrics for a needy Theist. App is available in Kannada and English.",
       "rating":4.8,
-      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadabhaktisudha",	
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadabhaktisudha",
+      "web_link_url":"",	
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
       "download_count":"10+"
     },
@@ -131,7 +143,8 @@
       "name":"XO : Beat Me",
       "description":"Tictoetoe Puzzle's AI algorithm and ability to take decisions on its own make the app distinctive.",
       "rating":4.9,
-      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.tictactoe",	
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.tictactoe",	
+      "web_link_url":"",	
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
       "download_count":"500+"
     },
@@ -139,7 +152,8 @@
       "name":"UrgeBlood",
       "description":"UrgeBlood was developed to serve blood to needy people by providing a connection between the Blood Donor and the Requester.",
       "rating":5.0,
-      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.urgeblood",	
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.urgeblood",
+      "web_link_url":"",	
       "topics":["Android","Cordova","Ionic","Firebase","Angular","Typescript","VS-Code"],
       "download_count":"50+"
     },
@@ -147,7 +161,8 @@
       "name":"Mind Reader",
       "description":"Mind teaser free application developed based on Mathematics",
       "rating": 4.3,
-      "link_url":"https://play.google.com/store/apps/details?id=com.sharath.mind&hl=en-IN",	
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.mind&hl=en-IN",	
+      "web_link_url":"",
       "topics":["Android","Java","Eclipse"],
       "download_count":"10,000+"
     }
