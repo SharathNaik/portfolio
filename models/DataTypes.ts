@@ -28,6 +28,7 @@ export type ProjectCardProps = {
   download_count?: number;
   android_url?: string;
   web_link_url?:string;
+  windows_url?:string;
   homepage?: string | URL | undefined;
   language?: string;
   open_issues?: number;
@@ -41,6 +42,7 @@ export type ProjectDataArr = {
   download_count?: number;
   android_url?: string;
   web_link_url?:string;
+  windows_url?:string;
   homepage?: string | URL | undefined;
   language?: string;
   open_issues?: number;

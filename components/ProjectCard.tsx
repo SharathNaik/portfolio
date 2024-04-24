@@ -6,6 +6,7 @@ import Image from "next/image";
 import Github from "../public/images/github.webp";
 import Link from "../public/images/link.webp";
 import Android from "../public/images/android.webp";
+import Windows from "../public/images/windows.webp";
 import ElasticText from "./ElasticText";
 import { ProjectCardProps } from "../models/DataTypes";
 
@@ -55,6 +56,15 @@ const Card = (props: ProjectCardProps) => {
               style={{display: props.android_url != ""?'flex':'none'}}
             >
               <Image src={Android} alt={"Homepage"} />
+            </a>
+            <a
+              className="button-effect"
+              href={`${props.windows_url}`}
+              target="_blank"
+              rel="noreferrer"
+              style={{display: props.windows_url != ""?'flex':'none'}}
+            >
+              <Image src={Windows} alt={"Homepage"} />
             </a>
             <a
               className="button-effect"

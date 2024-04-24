@@ -103,6 +103,7 @@ function Projects(): JSX.Element {
                 topics={item.topics}
                 web_link_url={item.web_link_url}
                 android_url={item.android_url}
+                windows_url={item.windows_url}
                 homepage={item.homepage}
                 download_count={item.download_count}
               />
