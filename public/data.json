@@ -38,6 +38,16 @@
   "resume": "https://sharathnaik.github.io/SharathResume/",
   "projects": [
     {
+      "name":"Kannada Hangman",
+      "description":"Welcome to Kannada Hangman, the ultimate word-guessing game designed for Kannada language enthusiasts of all ages! Put your Kannada vocabulary skills to the test as you embark on a thrilling journey to save the stick figure from hanging by correctly guessing Kannada words.",
+      "rating":5,
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadahangman",	
+      "web_link_url":"",
+      "windows_url":"https://apps.microsoft.com/detail/9nc74zz1s8tp?ocid=pdpshare",
+      "topics":["Android","Flutter","Dart","VS-Code","MongoDB Atlas","Realm","Windows Desktop"],
+      "download_count":"1+"
+    },
+    {
       "name":"Kannada Cinema",
       "description":"Welcome to the ultimate destination for Kannada Cinema enthusiasts – our specially curated Kannada Cinema app! Immerse yourself in the enchanting world of Kannada films, where tradition meets innovation and storytelling takes center stage.",
       "rating":5,
@@ -108,7 +118,7 @@
       "android_url":"https://play.google.com/store/apps/details?id=com.sharath.advancedmindreader",
       "web_link_url":"https://null-well.github.io/thoughtProbe/",	
       "windows_url":"https://www.microsoft.com/store/productId/9NWCZ994T4WK",
-      "topics":["Android","Flutter","Dart","VS-Code","Progressive Web App (PWA)"],
+      "topics":["Android","Flutter","Dart","VS-Code","Progressive Web App (PWA)","Windows Desktop"],
       "download_count":"5+"
     },
     {
