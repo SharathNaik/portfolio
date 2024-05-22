@@ -38,6 +38,14 @@
   "resume": "https://sharathnaik.github.io/sp_portfolio/",
   "projects": [
     {
+      "name":"SharePoint Portfolio",
+      "description":"sharepoint portfolio built for myself.",
+      "android_url":"",
+      "web_link_url":"https://sharathnaik.github.io/sp_portfolio/",	
+      "windows_url":"",
+      "topics":["Vue", "Vite", "Tailwind CSS" , "NodeJS", "Javascript", "VS-Code", "Git-Pages"]
+    },
+    {
       "name":"Kannada Hangman",
       "description":"Welcome to Kannada Hangman, the ultimate word-guessing game designed for Kannada language enthusiasts of all ages! Put your Kannada vocabulary skills to the test as you embark on a thrilling journey to save the stick figure from hanging by correctly guessing Kannada words.",
       "rating":5,
