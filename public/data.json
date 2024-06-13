@@ -38,6 +38,16 @@
   "resume": "https://sharathnaik.github.io/sp_portfolio/",
   "projects": [
     {
+      "name":"Quiz Tournament",
+      "description":"Dive into the thrilling world of Quiz Tournament, the ultimate trivia challenge app that will put your knowledge to the test! With a vast variety of topics ranging from history and science to pop culture and sports, Quiz Tournament offers an engaging and educational experience for trivia enthusiasts of all levels.",
+      "rating":5,
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.quiztournament&hl=en",	
+      "web_link_url":"",
+      "windows_url":"",
+      "topics":["Multiplayer Quiz","Android","Flutter","Dart","VS-Code","Supabase"],
+      "download_count":"1+"
+    },
+    {
       "name":"Sanskrit Hangman",
       "description":"Welcome to Sanskrit Hangman, the ultimate word-guessing game designed for Sanskrit enthusiasts of all ages! Dive into the ancient language of Sanskrit and put your vocabulary skills to the test by guessing words correctly to save the stick figure from hanging.",
       "rating":5,
