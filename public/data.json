@@ -45,7 +45,7 @@
       "web_link_url":"",
       "windows_url":"",
       "topics":["Multiplayer Quiz","Android","Flutter","Dart","VS-Code","Supabase"],
-      "download_count":"1+"
+      "download_count":"10+"
     },
     {
       "name":"Sanskrit Hangman",
@@ -55,7 +55,7 @@
       "web_link_url":"",
       "windows_url":"",
       "topics":["Android","Flutter","Dart","VS-Code","MongoDB Atlas","Realm"],
-      "download_count":"1+"
+      "download_count":"10+"
     },
     {
       "name":"SharePoint Portfolio",
@@ -73,17 +73,17 @@
       "web_link_url":"",
       "windows_url":"https://apps.microsoft.com/detail/9nc74zz1s8tp?ocid=pdpshare",
       "topics":["Android","Flutter","Dart","VS-Code","MongoDB Atlas","Realm","Windows Desktop"],
-      "download_count":"5+"
+      "download_count":"10+"
     },
     {
       "name":"Kannada Cinema",
       "description":"Welcome to the ultimate destination for Kannada Cinema enthusiasts – our specially curated Kannada Cinema app! Immerse yourself in the enchanting world of Kannada films, where tradition meets innovation and storytelling takes center stage.",
-      "rating":5,
+      "rating":4.8,
       "android_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadamovies",	
       "web_link_url":"",
       "windows_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code","TMDB"],
-      "download_count":"50+"
+      "download_count":"500+"
     },
     {
       "name":"NullWell",
@@ -117,7 +117,7 @@
       "web_link_url":"",
       "windows_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code","TMDB"],
-      "download_count":"100+"
+      "download_count":"500+"
     },
     {
       "name":"Kannada Ogatugalu",
@@ -127,7 +127,7 @@
       "web_link_url":"",
       "windows_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
-      "download_count":"10+"
+      "download_count":"50+"
     },
     {
       "name":"Kannada Gaadegalu",
@@ -177,7 +177,7 @@
       "web_link_url":"",	
       "windows_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
-      "download_count":"5+"
+      "download_count":"10+"
     },
     {
       "name":"Bhakti Sudhe",
