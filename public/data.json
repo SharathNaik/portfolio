@@ -38,6 +38,16 @@
   "resume": "https://sharathnaik.github.io/sp_portfolio/",
   "projects": [
     {
+      "name":"Kannada Picture Puzzle",
+      "description":"This addictive game is simple to play but hard to put down. Each level shows you a picture, and your goal is to guess the hidden Kannada word. It could be anything from a common object to a famous person or a place.",
+      "rating":5,
+      "android_url":"https://play.google.com/store/apps/details?id=com.sharath.fourpiconeword",	
+      "web_link_url":"",
+      "windows_url":"",
+      "topics":["Kannada Padabanda","Android","Flutter","Dart","VS-Code","Firebase"],
+      "download_count":"5+"
+    },
+    {
       "name":"Quiz Tournament",
       "description":"Dive into the thrilling world of Quiz Tournament, the ultimate trivia challenge app that will put your knowledge to the test! With a vast variety of topics ranging from history and science to pop culture and sports, Quiz Tournament offers an engaging and educational experience for trivia enthusiasts of all levels.",
       "rating":5,
@@ -54,7 +64,7 @@
       "android_url":"https://play.google.com/store/apps/details?id=com.sharath.sanskrithhangman",	
       "web_link_url":"",
       "windows_url":"",
-      "topics":["Android","Flutter","Dart","VS-Code","MongoDB Atlas","Realm"],
+      "topics":["Android","Flutter","Dart","VS-Code","Back4App","MongoDB","Pantry"],
       "download_count":"10+"
     },
     {
@@ -72,18 +82,18 @@
       "android_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadahangman",	
       "web_link_url":"",
       "windows_url":"https://apps.microsoft.com/detail/9nc74zz1s8tp?ocid=pdpshare",
-      "topics":["Android","Flutter","Dart","VS-Code","MongoDB Atlas","Realm","Windows Desktop"],
+      "topics":["Android","Flutter","Dart","VS-Code","Back4App","MongoDB","Pantry","Windows Desktop"],
       "download_count":"10+"
     },
     {
       "name":"Kannada Cinema",
       "description":"Welcome to the ultimate destination for Kannada Cinema enthusiasts – our specially curated Kannada Cinema app! Immerse yourself in the enchanting world of Kannada films, where tradition meets innovation and storytelling takes center stage.",
-      "rating":4.8,
+      "rating":4.0,
       "android_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadamovies",	
       "web_link_url":"",
       "windows_url":"",
-      "topics":["Android","Flutter","Dart","Firebase","VS-Code","TMDB"],
-      "download_count":"500+"
+      "topics":["Android","Flutter","Dart","Firebase","VS-Code","TMDB","Pantry"],
+      "download_count":"1000+"
     },
     {
       "name":"NullWell",
@@ -116,8 +126,8 @@
       "android_url":"https://play.google.com/store/apps/details?id=com.sharath.moviexplain",	
       "web_link_url":"",
       "windows_url":"",
-      "topics":["Android","Flutter","Dart","Firebase","VS-Code","TMDB"],
-      "download_count":"500+"
+      "topics":["Android","Flutter","Dart","Firebase","VS-Code","TMDB","Pantry"],
+      "download_count":"1000+"
     },
     {
       "name":"Kannada Ogatugalu",
