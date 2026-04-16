@@ -1,7 +1,7 @@
 {
   "intro": "Sharath M",
   "picture": "https://i.imgur.com/Me3bbCd.jpg",
-  "about": "Hello! My name is Sharath, and I'm an application developer.\n\n My development journey started during my engineering days, when I started to explore app development opportunities for the Nokia Asha Android device. The journey continued with Blackberry apps, Android apps, and Windows apps.\n\n Today, I am a solution architect at an MNC with 10 years of experience. \n\n I am a hobby application developer. I develop apps for mobile and the web.",
+  "about": "Hello! My name is Sharath, and I'm an application developer.\n\n My development journey started during my engineering days, when I started to explore app development opportunities for the Nokia Asha Android device. The journey continued with Blackberry apps, Android apps, and Windows apps.\n\n Today, I am a solution architect at an MNC with 12+ years of experience. \n\n I am a hobby application developer. I develop apps for mobile and the web.",
   "bio": ["I'm a Mobile and Web Application developer."],
   "tagline": ["I build applications for you,", "for the web,", "for the mobile."],
   "email": "nullwelldev@gmail.com",
@@ -45,7 +45,7 @@
       "web_link_url":"",
       "windows_url":"",
       "topics":["Kannada Padabanda","Android","Flutter","Dart","VS-Code","Firebase"],
-      "download_count":"5+"
+      "download_count":"10+"
     },
     {
       "name":"Quiz Tournament",
@@ -55,7 +55,7 @@
       "web_link_url":"",
       "windows_url":"",
       "topics":["Multiplayer Quiz","Android","Flutter","Dart","VS-Code","Supabase"],
-      "download_count":"10+"
+      "download_count":"100+"
     },
     {
       "name":"Sanskrit Hangman",
@@ -65,7 +65,7 @@
       "web_link_url":"",
       "windows_url":"",
       "topics":["Android","Flutter","Dart","VS-Code","Back4App","MongoDB","Pantry"],
-      "download_count":"10+"
+      "download_count":"50+"
     },
     {
       "name":"SharePoint Portfolio",
@@ -83,17 +83,17 @@
       "web_link_url":"",
       "windows_url":"https://apps.microsoft.com/detail/9nc74zz1s8tp?ocid=pdpshare",
       "topics":["Android","Flutter","Dart","VS-Code","Back4App","MongoDB","Pantry","Windows Desktop"],
-      "download_count":"10+"
+      "download_count":"50+"
     },
     {
       "name":"Kannada Cinema",
       "description":"Welcome to the ultimate destination for Kannada Cinema enthusiasts – our specially curated Kannada Cinema app! Immerse yourself in the enchanting world of Kannada films, where tradition meets innovation and storytelling takes center stage.",
-      "rating":4.0,
+      "rating":4.1,
       "android_url":"https://play.google.com/store/apps/details?id=com.sharath.kannadamovies",	
       "web_link_url":"",
       "windows_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code","TMDB","Pantry"],
-      "download_count":"1000+"
+      "download_count":"10,000+"
     },
     {
       "name":"NullWell",
@@ -122,12 +122,12 @@
     {
       "name":"Movie Explain",
       "description":"The Movie Explain app is a platform that provides users with detailed explanations of movies, TV shows, and other forms of visual media.",
-      "rating":5,
+      "rating":4.7,
       "android_url":"https://play.google.com/store/apps/details?id=com.sharath.moviexplain",	
       "web_link_url":"",
       "windows_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code","TMDB","Pantry"],
-      "download_count":"1000+"
+      "download_count":"1,000+"
     },
     {
       "name":"Kannada Ogatugalu",
@@ -137,7 +137,7 @@
       "web_link_url":"",
       "windows_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
-      "download_count":"50+"
+      "download_count":"500+"
     },
     {
       "name":"Kannada Gaadegalu",
@@ -147,7 +147,7 @@
       "web_link_url":"",
       "windows_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
-      "download_count":"10+"
+      "download_count":"100+"
     },
     {
       "name":"Thought Probe",
@@ -177,7 +177,7 @@
       "web_link_url":"",	
       "windows_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
-      "download_count":"5+"
+      "download_count":"10+"
     },
     {
       "name":"Math | Puzzle Challenge",
@@ -197,7 +197,7 @@
       "web_link_url":"",	
       "windows_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
-      "download_count":"10+"
+      "download_count":"100+"
     },
     {
       "name":"XO : Beat Me",
@@ -207,7 +207,7 @@
       "web_link_url":"",	
       "windows_url":"",
       "topics":["Android","Flutter","Dart","Firebase","VS-Code"],
-      "download_count":"500+"
+      "download_count":"1,000+"
     },
     {
       "name":"UrgeBlood",
@@ -217,7 +217,7 @@
       "web_link_url":"",	
       "windows_url":"",
       "topics":["Android","Cordova","Ionic","Firebase","Angular","Typescript","VS-Code"],
-      "download_count":"50+"
+      "download_count":"100+"
     },
     {
       "name":"Mind Reader",
@@ -227,7 +227,7 @@
       "web_link_url":"",
       "windows_url":"",
       "topics":["Android","Java","Eclipse"],
-      "download_count":"10,000+"
+      "download_count":"50,000+"
     }
   ]
 }
