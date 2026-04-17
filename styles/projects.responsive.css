@@ -1,0 +1,44 @@
+/* Projects Page Responsive Styles */
+
+/* Desktop and larger screens */
+@media (min-width: 768px) {
+  .projects-header-container {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .projects-title-wrapper {
+    flex: 1;
+  }
+
+  .projects-sort-controls {
+    flex-shrink: 0;
+  }
+}
+
+/* Mobile and tablet screens */
+@media (max-width: 767px) {
+  .projects-header-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .projects-title-wrapper {
+    width: 100%;
+  }
+
+  .projects-sort-controls {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .projects-sort-controls label {
+    margin-right: 10px !important;
+  }
+
+  .projects-sort-controls select {
+    flex: 1;
+    min-width: 150px;
+  }
+}

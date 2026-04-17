@@ -36,6 +36,14 @@
     "instagram": "https://www.instagram.com/mshaaruu/"
   },
   "resume": "https://sharathnaik.github.io/sp_portfolio/",
+  "topicCategories": {
+    "Languages": ["Dart", "Javascript", "Typescript", "Java"],
+    "Frameworks": ["Flutter", "Vue", "React", "Vite", "TailwindCSS", "Angular", "RxJS", "Next", "Cordova", "Ionic"],
+    "Platforms": ["Android", "Windows Desktop", "Vercel", "Netlify", "Progressive Web App (PWA)"],
+    "Tools": ["VS-Code", "Git", "Git-Pages", "NodeJS", "Eclipse"],
+    "Services": ["Firebase", "Supabase", "Back4App", "MongoDB", "Pantry", "TMDB"],
+    "Features": ["Kannada Padabanda", "Multiplayer Quiz"]
+  },
   "projects": [
     {
       "name":"Kannada Picture Puzzle",
@@ -117,7 +125,7 @@
       "android_url":"",
       "windows_url":"",
       "web_link_url":"https://sharathnaik.github.io/SharathResume/",	
-      "topics":["React", "NodeJS", "Javascript", "VS-Code", "Netify"]
+      "topics":["React", "NodeJS", "Javascript", "VS-Code", "Netlify"]
     },
     {
       "name":"Movie Explain",

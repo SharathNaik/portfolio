@@ -18,6 +18,7 @@ export type Data = {
   //repos: string[];
   socials: map;
   resume: string;
+  topicCategories: Record<string, string[]>;
   projects: keyable[];
 };
 

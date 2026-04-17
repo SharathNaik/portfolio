@@ -1,9 +1,15 @@
 import { Data } from "../models/DataTypes";
 import dataFromJson from "../public/data.json";
 
+const calculateYearsOfExperience = (): string => {
+  const currentYear = new Date().getFullYear();
+  const years = currentYear - 2014;
+  return `${years}+ years`;
+};
+
 export const data: Data = {
   intro: dataFromJson.intro,
-  about: dataFromJson.about,
+  about: dataFromJson.about.replace("12+ years", calculateYearsOfExperience()),
   picture: dataFromJson.picture,
   tagline: dataFromJson.tagline,
   bio: dataFromJson.bio,
@@ -13,5 +19,6 @@ export const data: Data = {
   //repos: dataFromJson.repos,
   socials: dataFromJson.socials,
   resume: dataFromJson.resume,
-  projects: dataFromJson.projects
+  projects: dataFromJson.projects,
+  topicCategories: dataFromJson.topicCategories
 };
